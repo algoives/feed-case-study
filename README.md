@@ -66,17 +66,19 @@ Primary course (happy path):
 Feed Image
 
 Property	Type
-id	UUID
+id	        UUID
 description	String (optional)
 location	String (optional)
-url	URL
-Payload contract
+url	        URL
+Payload         contract
 
-GET /feed
+GET /feed 
+
 
 200 RESPONSE
 
 {
+
 	"items": [
 		{
 			"id": "a UUID",
@@ -100,6 +102,7 @@ GET /feed
 		}
 		...
 	]
+ 
 }
 
 
